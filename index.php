@@ -1,8 +1,8 @@
 <?php 
-include('current_account.php');
+include('current.php');
 
-$savings_account = new SavingsAccount('Ecobank', 'Simon', '2167543653636');
-$current_account = new CurrentAccount('GCB', 'Suuk', '4598759875696895');
+$savings_account = new SavingsAccount('Ecobank', 'Wisdom', '2167543653636');
+$current_account = new CurrentAccount('GCB', 'Wizzy', '4598759875696895');
 
 echo 'Hi ' . $savings_account->getCustomer() . ', welcome to ' . $savings_account->getBank() . '<br>';
 echo 'Hi ' . $current_account->getCustomer() . ', welcome to ' . $current_account->getBank() . '<br>';
